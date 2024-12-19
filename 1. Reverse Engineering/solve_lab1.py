@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-username = "A"*31
+username = "A"*8
 serial = (ord(username[3]) ^ 0x1337) + 0x5EEDED
 n = len(username)
 
